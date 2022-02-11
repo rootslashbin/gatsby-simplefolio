@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'We wanted high quality derivative NFTs.  So we created ',
+  name: 'Ethereal Apes',
+  subtitle: 'The highest quality derivative project on the market.',
+  cta: 'Mint',
 };
 
 // ABOUT DATA
@@ -33,7 +33,7 @@ export const projectsData = [
     info: '730+ hand drawn assets by our wonderful artist @Aryaenne.',
     info2: 'All at 4000x4000 at 400 DPI.  Print to your hearts content or blow them up on a 70" 4k display with ease.',
     url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    // repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: 'Over a month spent on quality control on professional grade displays to ensure the highest fidelity.',
     info2: 'More than 2TB worth of samples, over 180,000 images, generated and curated with love',
     url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    // repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,15 +51,15 @@ export const projectsData = [
     info: 'Most profile pictures skimp on the background.  Usually, you get a single color, and if youre lucky, some basic artwork.',
     info2: 'Our backgrounds are composed of 3 separate layers, the Canvas, Background Type, and Background Fill with 5, 6, and 13 combinations each allowing for up to 480 different possible high quality, highly detailed backgrounds',
     url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    // repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'zombie-yakuza.jpeg',
     title: 'A Completely Custom Generator',
     info: 'Early on in our project we realized that simply overlaying layers on top of one another was not going to allow us to achieve the artistic goals we set out for.',
-    info2: 'Because of what we wanted to achieve, we built a custom generator in the Go programming language that allows for complex rulesets, compositions, exclusions, refined rarity calculations, meta traits, and more.',
-    // url: '',
+    info2: 'Because of what we wanted to achieve, we built a custom generator that allows for complex rulesets, compositions, exclusions, refined rarity calculations, meta traits, and more.',
+    url: '',
     repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
@@ -69,14 +69,14 @@ export const projectsData = [
     info: 'We wanted to build the most premium experience for collectors of our NFTs.',
     info2: '  Meta traits signal specific combinations that make simpler filters and aesthetic rarities easier than ever.',
     // url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    // repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'flow.jpeg',
     title: 'Gas Efficient Smart Contracts',
-    info: 'Our contract is based on the Nuclear Nerds ERC721 implementation.  This allows for a gas efficient mint with up to 80% savings over your average ERC-721 mint.  In addition, that means no approvals are necessary and the whitelist is handled in a cost efficient manner involving a merkle tree that stores addresses and allocations in its leaf nodes 😤',
-    info2: '',
+    info: 'Our contract allows for a gas efficient mint with up to 80% savings over your average ERC-721 mint.',
+    info2: 'Oh, and to save everyone even more precious ETH no approvals are necessary when selling on Opensea',
     // url: '',
     repo: 'https://github.com/', // if no repo, the button will not show up
   },
@@ -84,7 +84,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'https://etherealapes.art',
   btn: '',
   email: '',
 };
@@ -112,5 +112,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
