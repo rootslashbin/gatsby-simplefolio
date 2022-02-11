@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Apollo-1024.jpg',
-  paragraphOne: 'Ethereal Apes are a 10,000 piece derivative NFT collection that pays homage to Bored Ape Yacht Club on the Ethereum blockchain.',
+  paragraphOne: 'Ethereal Apes are a 10,000 piece derivative NFT collection on the Ethereum blockchain.',
   paragraphTwo: 'Ethereal Apes was inspired by a desire to see the NFT community raise the bar for derivative projects both artistically and technologically.',
   paragraphThree: 'Simply put, we wish to set the standard for quality in derivative projects.',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
