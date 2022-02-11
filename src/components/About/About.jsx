@@ -46,7 +46,7 @@ const About = () => {
                     'Ethereal Apes was inspired by a desire to see the NFT community raise the bar for derivative projects both artistically and technologically.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Simply put, We wish to set the standard for quality in derivative projects.'}
+                  {paragraphThree || 'Simply put, we wish to set the standard for quality in derivative projects.'}
                 </p><center></center>
                 {/* {resume && (
                   <span className="d-flex mt-3">

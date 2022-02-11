@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'Apollo-1024.jpg',
   paragraphOne: 'Ethereal Apes are a 10,000 piece derivative NFT collection that pays homage to Bored Ape Yacht Club on the Ethereum blockchain.',
   paragraphTwo: 'Ethereal Apes was inspired by a desire to see the NFT community raise the bar for derivative projects both artistically and technologically.',
-  paragraphThree: 'Simply put, We wish to set the standard for quality in derivative projects.',
+  paragraphThree: 'Simply put, we wish to set the standard for quality in derivative projects.',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -80,6 +80,15 @@ export const projectsData = [
     // url: '',
     repo: 'https://github.com/etherealapes/contracts', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Collector-Sea-Storm.jpeg',
+    title: 'Mint Details',
+    info: 'Price: .08 ETH',
+    info2: 'Supply: 10,000',
+    // url: '',
+    // repo: 'https://github.com/etherealapes/contracts', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -100,12 +109,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'medium',
-      url: 'https://medium.com/etherealapes',
+      url: 'https://medium.com/@EtherealApes',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/etherealapes',
+      url: 'https://github.com/EtherealApes',
     },
   ],
 };
