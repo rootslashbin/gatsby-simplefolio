@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="The Why" />
+        <Title title="Why" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,7 +39,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Ethereal Apes are a 10,000 piece derivative NFT collection that pays homage to Bored Ape Yacht Club on the Ethereum blockchain.'}
+                    ''}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||

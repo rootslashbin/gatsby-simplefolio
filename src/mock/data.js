@@ -4,23 +4,23 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Ethereal Apes', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Ethereal Apes', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'We wanted high quality derivative NFTs.  So we created ',
+  title: 'We wanted to create the absolute highest quality derivative NFTs. So we created ',
   name: 'Ethereal Apes',
-  subtitle: 'The highest quality derivative project on the market.',
-  cta: 'Mint',
+  subtitle: '',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'Apollo-1024.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Ethereal Apes are a 10,000 piece derivative NFT collection that pays homage to Bored Ape Yacht Club on the Ethereum blockchain.',
+  paragraphTwo: 'Ethereal Apes was inspired by a desire to see the NFT community raise the bar for derivative projects both artistically and technologically.',
+  paragraphThree: 'Simply put, We wish to set the standard for quality in derivative projects.',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,10 +28,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'Abstract-Bow-Abyssal.jpeg',
+    img: 'flow.jpg',
     title: '730+ Hand Crafted Assets at 4k UHD Resolution',
     info: '730+ hand drawn assets by our wonderful artist @Aryaenne.',
-    info2: 'All at 4000x4000 at 400 DPI.  Print to your hearts content or blow them up on a 70" 4k display with ease.',
+    info2: 'All at 4000x4000 at 400 DPI. Print to your hearts content or blow them up on a 70" 4k display with ease.',
     url: '',
     // repo: 'https://github.com/', // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Orb.jpg',
     title: 'Insanely Intricate Backgrounds',
-    info: 'Most profile pictures skimp on the background.  Usually, you get a single color, and if youre lucky, some basic artwork.',
-    info2: 'Our backgrounds are composed of 3 separate layers, the Canvas, Background Type, and Background Fill with 5, 6, and 13 combinations each allowing for up to 480 different possible high quality, highly detailed backgrounds',
+    info: 'Most profile pictures have relatively simple backgrounds. Usually, you get a single color, and if youre lucky, some basic artwork.',
+    info2: 'Our backgrounds are composed of 3 separate layers, the Canvas, Background Type, and Background Fill with 5, 6, and 13 combinations each allowing for up to 390 different possible high quality backgrounds',
     url: '',
     // repo: 'https://github.com/', // if no repo, the button will not show up
   },
@@ -58,7 +58,7 @@ export const projectsData = [
     img: 'zombie-yakuza.jpeg',
     title: 'A Completely Custom Generator',
     info: 'Early on in our project we realized that simply overlaying layers on top of one another was not going to allow us to achieve the artistic goals we set out for.',
-    info2: 'Because of what we wanted to achieve, we built a custom generator that allows for complex rulesets, compositions, exclusions, refined rarity calculations, meta traits, and more.',
+    info2: 'Because of our goals, not just any open source generator would do. We built a custom generator that allows for complex rulesets, compositions, exclusions, refined rarity calculations, meta traits, and more.',
     url: '',
     repo: 'https://github.com/etherealapes/generator', // if no repo, the button will not show up
   },
@@ -67,16 +67,16 @@ export const projectsData = [
     img: 'poseidon.jpg',
     title: 'Meta Traits',
     info: 'We wanted to build the most premium experience for collectors of our NFTs.',
-    info2: '  Meta traits signal specific combinations that make simpler filters and aesthetic rarities easier than ever.',
+    info2: '  Meta traits signal specific combinations that make filters simpler and rarity based aesthetics easier than ever.',
     // url: '',
     // repo: 'https://github.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'flow.jpeg',
+    img: 'Abstract-Bow-Abyssal.jpeg',
     title: 'Gas Efficient Smart Contracts',
     info: 'Our contract allows for a gas efficient mint with up to 80% savings over your average ERC-721 mint.',
-    info2: 'Oh, and to save everyone even more precious ETH no approvals are necessary when selling on Opensea',
+    info2: 'Oh, and to save everyone even more precious ETH, no approvals are necessary when selling on Opensea.',
     // url: '',
     repo: 'https://github.com/etherealapes/contracts', // if no repo, the button will not show up
   },
