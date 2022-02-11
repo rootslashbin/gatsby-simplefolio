@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'Abstract-Bow-Abyssal.jpeg',
-    title: '730+ Assets at 4k UHD Resolution',
+    title: '730+ Hand Crafted Assets at 4k UHD Resolution',
     info: '730+ hand drawn assets by our wonderful artist @Aryaenne.',
     info2: 'All at 4000x4000 at 400 DPI.  Print to your hearts content or blow them up on a 70" 4k display with ease.',
     url: '',
@@ -60,7 +60,7 @@ export const projectsData = [
     info: 'Early on in our project we realized that simply overlaying layers on top of one another was not going to allow us to achieve the artistic goals we set out for.',
     info2: 'Because of what we wanted to achieve, we built a custom generator that allows for complex rulesets, compositions, exclusions, refined rarity calculations, meta traits, and more.',
     url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    repo: 'https://github.com/etherealapes/generator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -78,14 +78,14 @@ export const projectsData = [
     info: 'Our contract allows for a gas efficient mint with up to 80% savings over your average ERC-721 mint.',
     info2: 'Oh, and to save everyone even more precious ETH no approvals are necessary when selling on Opensea',
     // url: '',
-    repo: 'https://github.com/', // if no repo, the button will not show up
+    repo: 'https://github.com/etherealapes/contracts', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'https://etherealapes.art',
-  btn: '',
+  cta: 'Ready to mint anon?',
+  btn: 'Mint',
   email: '',
 };
 
