@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="The Why" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,16 +39,16 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Ethereal Apes are a 10,000 piece derivative NFT collection that pays homage to Bored Ape Yacht Club on the Ethereum blockchain.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Ethereal Apes was inspired by a desire to see the NFT community raise the bar for derivative projects both artistically and technologically.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                {resume && (
+                  {paragraphThree || 'Simply put, We wish to set the standard for quality in derivative projects.'}
+                </p><center></center>
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -56,10 +56,10 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Mint
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
