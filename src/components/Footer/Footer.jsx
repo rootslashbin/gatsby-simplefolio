@@ -38,8 +38,10 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {'Made with ❤️ by Anons '}
+          {'Not affiliated with Yuga Labs or Bored Ape Yacht Club.'}<br></br>
+          {'Made with ❤️ by anons.'}
         </p>
+        
 
         {/* {isEnabled && <GithubButtons />} */}
       </Container>
